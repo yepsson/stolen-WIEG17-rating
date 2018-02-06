@@ -1,0 +1,51 @@
+html, body
+{
+    width:100%;
+    margin: 0;
+}
+
+body
+{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+header
+{
+    border-bottom: solid black 2px;
+}
+
+#headerCont
+{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 3em;
+}
+
+#headerCont > nav > a
+{
+    font-size: 1.25em;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+#content
+{
+    margin: 8px;
+}
+
+footer
+{
+    border-top: solid black 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#footerCont
+{
+    margin: 8px 8px 0px 8px;
+}
