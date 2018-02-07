@@ -6,7 +6,8 @@ html, body
 
 body
 {
-    background-color: goldenrod;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
     color: whitesmoke;
 }
 
@@ -48,4 +49,7 @@ footer
 #footerCont
 {
     margin: 8px 8px 0px 8px;
+}
+ul{
+    list-style: none;
 }

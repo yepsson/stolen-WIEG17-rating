@@ -5,9 +5,9 @@
     include "incl/listArray.php";
 ?>
 
-    <?php
-        echo "<h1>" . $_GET["game"] . "</h1>";
-        echo "<p>" . $list[$_GET["game"]] . "</p>";
+<?php
+        echo "<h1>" . $list[$_GET["game"]]["namn"] . "</h1>";
+        echo "<p>" . $list[$_GET["game"]]["Info"] . "</p>";
     ?>
 
 <?php

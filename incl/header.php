@@ -1,6 +1,6 @@
 <?php
 
-    define("PAGE_NAME", "BestList.obvs");
+    define("PAGE_NAME", "The Best GAMELIST 4-EVER");
 
     include "incl/functions.php";
 
@@ -13,10 +13,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="./css/main.css">
-        <title><?php echo $pageTitle; ?></title>
+        <title><?php 
+
+    
+        echo PAGE_NAME;
+        if(isset($pageTitle)){
+            echo $pageTitle;
+        }
+        
+        ?>
+        </title>
     </head>
     <body>
         <header>
+        
             <div id="headerCont">
                 <h1>Välkommen till <?php echo PAGE_NAME; ?>!</h1>
                 <nav>

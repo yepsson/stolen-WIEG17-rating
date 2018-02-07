@@ -7,7 +7,7 @@
         
         foreach($array as $key => $value)
         {
-            echo "<li>" . $key . "</li>";
+            echo "<li>" . $value["namn"] . "</li>";
         }
 
         echo "</ul>";
@@ -21,7 +21,7 @@
 
         foreach($array as $key => $value)
         {
-            echo '<option value="' . $key . '">' . $key . '</option>';
+            echo '<option value="' . $key . '">' . $value["namn"] . '</option>';
         }
         
         echo "</select>";

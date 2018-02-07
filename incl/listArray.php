@@ -1,4 +1,17 @@
 <?php
-    $list = array(
-        "80. Final Fantasy Tactics Advance" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!", "99. Golden Sun: the Lost Age" => "The sequel to the amazing original. This time we follow Felix, his sister Jenna and their friend Sheba, accompanied by the old scholar Kraden, traveling around completly new areas of Weyard.", "76. Fire Emblem Echoes: Shadows of Valentia" => "The newest Fire Emblem game on the 3DS, a remake of the second game which was never released outside of Japan. Dungeon Crawling and the classic turn-based strategic battling system make an interesting combination but it all works quite well to make a good game!", "82. Final Fantasy Tactics Advance 2" => "The sequel to FFTA on the GBA was released on the DS and improved the game where it was needed but overall VERY similair to the first FFTA!", "100. Golden Sun" => "The best RPG available for any handheld to date, this GBA game has been my favourite game since the first time I played it and it is STILL in my top 5 games of all time, and takes THE top spot on my RPG list!", "77. Golden Sun Dark Dawn" => "The newest game in the Golden Sun series, released for the DS, a good continuation of the story the gameplay and graphics did lack the polish of the original 2 games on the GBA but overall, it's still a very good game!");
+    
+
+
+        $list = array(
+            array("namn" => "50. Final Fantasy Tactics Advance", "Info" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!"),
+            array("namn" => "80. Final Fantasy Tactics Advance", "Info" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!"),
+            array("namn" => "80. Final Fantasy Tactics Advance", "Info" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!"),
+            array("namn" => "90. Final Fantasy Tactics Advance", "Info" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!"),
+            array("namn" => "80. Final Fantasy Tactics Advance", "Info" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!"),
+            array("namn" => "70. Final Fantasy Tactics Advance", "Info" => "The first Final Fantasy Tactics on the GBA and the second after the original on the PSX!"),
+        );
+
+
+
+
 ?>
